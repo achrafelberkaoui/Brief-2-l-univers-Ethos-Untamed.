@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(assets/Orbitron-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Blender Pro';
+    src: url(assets/BLENDERPRO-BOLD.TTF) format('truetype')
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+body {
+    background-image: url(assets/img/Rectangle\ 1\ copy\ 1.png);
+    font-family: Orbitron;
+    background-color: #07040F;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    
+}
+.dis{
+    display: inline;
+}
+
+.square{
+    width: 8px;
+    height: 8px;
+    background-color: #36B862;
+    margin-top: 30px;
+    margin-left: 90px;
+
+}
+.container, .square{
+
+    color: #36B862;
+    font-family: Blender Pro;
+    font-style: bold;
+    display: inline-block;    
+
+}
+
+h1{
+    color: white;
+    font-weight:100 ;
+    font-family: orbitron;
+    margin-left: 100px;
+}
+.title-2{
+    background-color:#36B862;
+    font-weight: bold;
+}
+.title-1{
+    margin-left: 130px;
+}
+.title-1, .title-2{
+    color: white;
+    font-weight:100;
+    font-size: 14px;
+    font-family: orbitron;
+    display: inline-block;
+
+}
+
+.vect-1{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin: -390px 60px 80px 60px;
+
+}
+
+.loading{
+    margin: 10px 0px -80px 220px;
+    width: 60%;
+    height: 6px;
+    background:linear-gradient(to right ,#36B862 40%,  #FFFFFF30 20%);
+    box-shadow: 0 0 2px #36B862 ;
+    align-items: center;
+}
+
+.load-ing{
+    font-family: Orbitron;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin: 30px 0px -50px 230px;
+    display: inline-block;
+
+}
+.load-40{
+    font-family: Orbitron;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    margin: 30px 0px -50px 150px;
+    display: inline-block;
+
+}
+
+.load-4301{
+    font-family: Orbitron;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    margin: 30px 0px -50px 300px;
+    display: inline-block;
+
+}
+.analyze{
+    display: inline-block;
+    font-size: 15px;
+    margin: 90px 0px 0px 350px;
+    color: #0e632a;
+    font-variant: small-caps;
+
+}
+.analyze-lin{
+    margin: 90px 0px 0px 10px;
+    width: 30%;
+    height: 6px;
+    background:#16823a;
+    display: inline-block;
+
+}
+
+.turchelon{
+    display: flex;
+    margin: 20px 0px 10px 200px;
+
+}
+.turchelon-im{
+    height: 180px;
+
+}
+
+.button-1{
+    padding: 8px;
+    margin-right: 20px;
+    color: white;
+    align-self: center;
+    border: 2px solide white;
+    background: transparent;
+    margin-bottom: 100px;
+}
+
+.button-2{
+    padding: 8px;
+    margin-left: 20px;
+    color: white;
+    align-self: center;
+    border: 0px solide white;
+    background: transparent;
+    margin-bottom: 100px;
+}
+
+.selection{
+    color: white;
+    align-self: center;
+    margin: 40px 0px 20px 60px;
+    
+}
+
+.version{
+    font-size: 8px;
+
+}
+.carachter{
+    font-size: 8px;
+    background: #36B862;
+    width: 80px;
+    border-top-right-radius: 50px;
+    margin-bottom:6px;
+}
+
+
+.text{
+    color: white;
+    font-family: blender pro;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.scan{
+    margin-top: 8px;
+}
+.valida{
+    display:inline-block;
+    color: white;
+    background: #16823a;
+    font-family: blender pro;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    margin: 10px 0px 50px 100px;
+}
+
+.bod{
+display: flex;
+}
+
+.selection-img{
+
+    display: inline-flex;
+    width: 270px;
+    margin: -500px 0px 10px 100px;
+    justify-content: space-between;
+}
+.turchelon-im2{
+    height: 80px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.rhino{
+    height: 100px;
+    padding: 10px;
+
+}
+
+.dino{
+    height: 100px;
+    padding: 10px;
+    
+}
+
+.vect-42{
+    margin-bottom: 60px;
+}
