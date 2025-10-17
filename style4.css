@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(assets/Orbitron-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Blender Pro';
+    src: url(assets/BLENDERPRO-BOLD.TTF) format('truetype')
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+body {
+    background-image: url(assets/img/Rectangle\ 1\ copy\ 1.png);
+    font-family: Orbitron;
+    background-color: #07040F;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    
+}
+.dis{
+    display: inline;
+}
+
+.square{
+    width: 8px;
+    height: 8px;
+    background-color: #FFEA31;
+    margin-top: 30px;
+    margin-left: 90px;
+
+}
+.container, .square{
+
+    color: #FFEA31;
+    font-family: Blender Pro;
+    font-style: bold;
+    display: inline-block;    
+
+}
+
+h1{
+    color: white;
+    font-weight:100 ;
+    font-family: orbitron;
+    margin-left: 100px;
+    font-variant: small-caps;
+
+}
+.title-2{
+    background:#FFEA31;
+    font-weight: bold;
+}
+.title-1{
+    margin-left: 130px;
+}
+.title-1, .title-2{
+    color: white;
+    font-weight:100;
+    font-size: 14px;
+    font-family: orbitron;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-variant: small-caps;
+
+}
+
+.vect-1{
+background-image: url(assets/img/Vector\ 47\ \(2\).png);
+width: 1000px;
+height: 500px;
+background-repeat: no-repeat;
+margin: -60px 40px 60px 100px;
+padding: 15px;
+
+}
+.fath-er{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center; 
+gap: 50px;
+}
+
+.text-1{
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight:lighter;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+
+
+
+.article-t{
+    width: 140px;
+    margin-top: 50px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #a9a9a9;
+    align-content: space-between;
+
+}
+
+
+
+.txt-logo{
+    color: white;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.loading{
+    margin: 10px 0px -80px 250px;
+    width: 50%;
+    height: 6px;
+    background:linear-gradient(to right ,#FFEA31 80%,  #FFFFFF30 20%);
+    box-shadow: 0 0 2px #FFEA31 ;
+    align-items: center;
+}
+
+.load-ing{
+    font-family: Orbitron;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin: 20px 0px 0px 250px;
+    display: inline-block;
+
+}
+.load-40{
+    font-family: Orbitron;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    margin: 30px 0px -50px 150px;
+    display: inline-block;
+
+}
+
+.load-4301{
+    font-family: Orbitron;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    margin: 30px 0px -50px 200px;
+    display: inline-block;
+
+}
+.analyze{
+    display: inline-block;
+    font-size: 15px;
+    margin: 90px 0px 30px 350px;
+    color: #537DD8;
+    font-variant: small-caps;
+
+}
+.analyze-lin{
+    margin: 90px 0px 0px 10px;
+    width: 30%;
+    height: 6px;
+    background:#537DD8;
+    display: inline-block;
+
+}
+
+.button{
+    margin-top: 40px;
+    text-align: center;
+
+}
+button{
+    color: white;
+    background: transparent;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+
